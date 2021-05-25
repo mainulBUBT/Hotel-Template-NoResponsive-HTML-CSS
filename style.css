@@ -1,0 +1,382 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body {
+  font-family: "Playfair Display", times, serif;
+  margin: 0;
+  background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.header 
+{
+	background-color: #240040;
+	height: 70px;
+	color: white;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+}
+
+.header .logo img
+{
+	vertical-align: sub !important;
+}
+.logoCall
+{
+	color: #F2B705;
+}
+
+.logo
+{
+	float: left;
+	padding: 15px 100px;
+	position: relative;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: cursive;
+}
+.menu
+{
+	float: right;
+	position: relative;
+	padding-top: 20px;
+	padding-right: 15px;
+
+}
+.menu ul li
+{
+	display: inline;
+	position: relative;
+
+}
+ul li a
+{
+	text-decoration: none;
+	padding: 15px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold
+}
+.menu ul li a:hover
+{
+	background: #fff;
+	color: #000;
+	font-weight: bold
+}
+
+/*---------------End Header Codes------------*/
+#home{
+	background-image: url(assets/images/img1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%;
+	height: 605px;
+	
+}
+
+.home-content
+{
+	
+	height: 605px;
+	background-color: #0000007D;
+	padding: 110px 130px;
+	width: 100%;
+
+
+}
+.home-content h2
+{
+	color: #fff;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 50px;
+}
+.home-content p
+{
+	color: #fff;
+	font-size: 20px;
+	padding-top: 10px;
+	text-align: center;
+}
+.button {
+	padding: 12px 30px;
+	background-color: #f94e0bdb;
+	border: none;
+	margin: 0 auto;
+	display: block;
+	margin-top: 30px;
+	font-size: 18px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ceb8afb5; /* Green */
+  color: black;
+}
+
+.logo a {
+	text-decoration: none;
+	color: white;
+}
+/*---------------End Home Codes------------*/
+
+#about {
+	height: 605px;
+	width: 100%;
+	background-color: #6a67671a;
+	padding-top: 60px;
+}
+.about-content-1 {
+	width: 41%;
+	float: left;
+	margin: 30px 40px;
+	background-color: white;
+	height: 400px;
+	padding: 25px;
+}
+
+.about-content-1 .sub-heading {
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	color: #716c6c;
+	font-family: "Rubik", arial, sans-serif;
+	text-align: center;
+	padding-bottom: 6px;
+}
+.about-content-1 h2 {
+	font-size: 42px;
+	text-align: center;
+}
+.about-content-1 p {
+	word-spacing: 4px;
+	padding-top: 20px;
+	line-height: 1.4;
+	text-align: justify;
+	color: #111c;
+}
+
+.about-content-2 {
+	width: 47%;
+	float: right;
+	margin: 30px 40px;
+	background-image: url(assets/images/about.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+}
+
+/*---------------End About Codes------------*/
+
+#services {
+	width: 100%;
+	height: 605px;
+	padding-top: 45px;
+	background-image: url(assets/images/img2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.service-content {
+	text-align: center;
+	background-color: #0000007D;
+	height: 480px;
+	max-height: 100%;
+	margin: 35px 90px;
+}
+
+.service-content h2 {
+	font-size: 45px;
+	color: #fff;
+	padding-top: 40px;
+}
+
+.service-content-1 {
+    width: 28%;
+    color: #090808;
+    height: 340px;
+    background-image: url(assets/images/img4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    float: left;
+    margin: 12px;
+    margin-left: 67px;
+    margin-top: 23px;
+    position: relative;
+}
+.service-content-2 {
+    width: 28%;
+    color: #090808;
+    height: 340px;
+    background-image: url(assets/images/img5.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    float: left;
+    margin: 12px;
+    margin-top: 23px;
+    position: relative;
+}
+.service-content-3 {
+    width: 28%;
+    color: #090808;
+    height: 340px;
+    background-image: url(assets/images/img6.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    float: left;
+    margin: 12px;
+    margin-top: 23px;
+    position: relative;
+}
+
+.services-text {
+	font-size: 32px;
+	position: absolute;
+	bottom: 0px;
+	background: #0a0b0ab5;
+	width: 100%;
+	height: 60px;
+	padding-top: 10px;
+	color: #fff;
+	font-family: OCR A Std, monospace;
+}
+
+/*---------------End Services Codes------------*/
+
+#gallery {
+	width: 100%;
+	height: 605px;
+	background-image: url(assets/images/img7.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.gallery-content {
+	background: #0b0a0aab;
+	height: 605px;
+	padding-top: 20px;
+}
+
+.gallery-content h2 {
+	text-align: center;
+	color: white;
+	font-size: 42px;
+	padding-top: 50px;
+}
+.image-frame {
+	height: 400px;
+	background: white;
+	margin: 12px 120px;
+	border-radius: 10px;
+}
+.image-frame ul li {
+	display: inline;
+}
+.image-frame img {
+	width: 269px;
+	height: 184px;
+	padding: 10px;
+	margin-top: 11px;
+	margin-left: 4px;
+	border-radius: 20px;
+}
+ .image-frame img:hover
+ {
+ 	transform: scale(2,2);
+ 	transition: .3s transform;
+ }
+
+/*---------------End Services Codes------------*/
+
+#contact {
+	width: 100%;
+	height: 605px;
+	background: #000000e6;
+	border-top: 1px solid #fff;
+	padding-top: 60px;
+}
+
+.contact-content {
+	max-width: 100%;
+	position: relative;
+
+}
+
+.left-footer {
+	color: #fff;
+	width: 30%;
+	position: absolute;
+	left: 136px;
+	top: 46px;
+
+}
+.left-footer h3 {
+	font-size: 30px;
+	padding-left: 37px;
+	padding-bottom: 26px;
+	border-bottom: 1px solid #fff;
+	padding: 12px;
+
+}
+.left-footer p {
+	padding-top: 23px;
+}
+.right-footer {
+	color: #fff;
+	position: absolute;
+	right: 136px;
+	top: 46px;
+}
+.right-footer h3 {
+	font-size: 30px;
+	padding-left: 37px;
+	padding-bottom: 26px;
+}
+
+
+input {
+	width: 281px;
+	height: 42px;
+	padding-left: 20px;
+	background: none;
+	border: none;
+	border-bottom: 2px solid #fff;
+	color: #fff;
+	font-size: 17px;
+}
+textarea {
+	width: 281px;
+	height: 100px;
+	background: #b5b5b5b8;
+	border: none;
+}
+
+.btn {
+	padding: 10px 20px;
+	background-color: #df470beb;
+	border: none;
+	font-size: 18px;
+	color: #fff;
+	cursor: pointer;
+	width: 282px;
+	border-radius: 5px;
+}
